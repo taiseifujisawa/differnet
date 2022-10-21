@@ -3,6 +3,7 @@ research purposes. Don't try this code if you are a software engineer.'''
 
 # device settings
 device = 'cuda' # or 'cpu'
+#device = 'cpu' # or 'cpu'
 import torch
 torch.cuda.set_device(0)
 
