@@ -8,11 +8,11 @@ import torch
 torch.cuda.set_device(0)
 
 # data settings
-dataset_path = "dataset_org"
-class_name = "class"
-modelname = "test_result"
+dataset_path = "dummy_dataset"
+class_name = "dummy_class"
+modelname = "dummy_test"
 
-img_size = (842, 842)
+img_size = (448, 448)
 img_dims = [3] + list(img_size)
 
 # transformation settings
@@ -44,6 +44,6 @@ sub_epochs = 8
 
 # output settings
 verbose = True
-grad_map_viz = False
+grad_map_viz = True
 hide_tqdm_bar = True
 save_model = True
