@@ -8,11 +8,11 @@ import torch
 torch.cuda.set_device(0)
 
 # data settings
-dataset_path = "dummy_dataset"
-class_name = "dummy_class"
-modelname = "dummy_test"
+dataset_path = "dataset_org"
+class_name = "class"
+modelname = "test_result"
 
-img_size = (448, 448)
+img_size = (842, 842)
 img_dims = [3] + list(img_size)
 
 # transformation settings
@@ -33,8 +33,8 @@ n_feat = 256 * n_scales # do not change except you change the feature extractor
 
 # dataloader parameters
 n_transforms = 4 # number of transformations per sample in training
-n_transforms_test = 64 # number of transformations per sample in testing
-batch_size = 24 # actual batch size is this value multiplied by n_transforms(_test)
+n_transforms_test = 32 # number of transformations per sample in testing
+batch_size = 10 # actual batch size is this value multiplied by n_transforms(_test)
 batch_size_test = batch_size * n_transforms // n_transforms_test
 
 # total epochs = meta_epochs * sub_epochs
