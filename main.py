@@ -8,7 +8,9 @@ from train import train
 from utils import load_datasets, make_dataloaders
 import logging_controller
 from datetime import datetime
+from set_seed import set_seed
 
+set_seed()
 start_time = datetime.now()
 print(f"start at {start_time.strftime('%Y-%m-%d_%H-%M-%S')}")
 train_set, test_set = load_datasets(c.dataset_path, c.class_name)
