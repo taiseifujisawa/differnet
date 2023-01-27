@@ -1,0 +1,61 @@
+Which of the folloing type is directory 'a'?
+0. normal
+1. anomaly
+2. unused
+Which of the folloing type is directory 'b'?
+0. normal
+1. anomaly
+2. unused
+Which of the folloing type is directory 'c'?
+0. normal
+1. anomaly
+2. unused
+start at 2023-01-25_16-25-54
+AUROC: 	 last: 0.2794 	 max: 0.4191 	 epoch_max: 37
+end at 2023-01-25_20-38-42
+It took 4:12:47.959737 to complete.
+start at 2023-01-25_20-38-47
+AUROC: 	 last: 0.4963 	 max: 0.5772 	 epoch_max: 18
+end at 2023-01-26_00-51-41
+It took 4:12:53.616312 to complete.
+start at 2023-01-26_00-51-46
+Backend TkAgg is interactive backend. Turning interactive mode on.
+AUROC: 	 last: 0.4412 	 max: 0.4963 	 epoch_max: 12
+end at 2023-01-26_05-05-42
+It took 4:13:55.815830 to complete.
+start at 2023-01-26_05-05-48
+AUROC: 	 last: 0.4706 	 max: 0.5257 	 epoch_max: 14
+end at 2023-01-26_09-17-54
+It took 4:12:06.218528 to complete.
+start at 2023-01-26_09-18-00
+AUROC: 	 last: 0.5993 	 max: 0.6029 	 epoch_max: 19
+end at 2023-01-26_13-30-48
+It took 4:12:47.863895 to complete.
+start at 2023-01-26_13-30-54
+AUROC: 	 last: 0.3199 	 max: 0.5588 	 epoch_max: 37
+end at 2023-01-26_17-42-29
+It took 4:11:34.731705 to complete.
+start at 2023-01-26_17-42-34
+AUROC: 	 last: 0.2904 	 max: 0.4779 	 epoch_max: 14
+end at 2023-01-26_21-55-31
+It took 4:12:56.780557 to complete.
+start at 2023-01-26_21-55-37
+AUROC: 	 last: 0.3676 	 max: 0.5147 	 epoch_max: 9
+end at 2023-01-27_02-08-08
+It took 4:12:30.827873 to complete.
+start at 2023-01-27_02-08-13
+AUROC: 	 last: 0.3934 	 max: 0.6691 	 epoch_max: 9
+end at 2023-01-27_06-19-14
+It took 4:11:01.157029 to complete.
+start at 2023-01-27_06-19-20
+AUROC: 	 last: 0.4297 	 max: 0.5195 	 epoch_max: 33
+end at 2023-01-27_10-31-31
+It took 4:12:10.401210 to complete.
+start at 2023-01-27_10-31-36
+AUROC: 	 last: 0.3633 	 max: 0.4531 	 epoch_max: 19
+end at 2023-01-27_14-44-41
+It took 4:13:04.059197 to complete.
+start at 2023-01-27_14-44-46
+AUROC: 	 last: 0.4062 	 max: 0.5234 	 epoch_max: 9
+end at 2023-01-27_18-56-12
+It took 4:11:25.975138 to complete.

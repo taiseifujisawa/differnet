@@ -10,12 +10,16 @@ import logging_controller
 from datetime import datetime
 from set_seed import set_seed
 
-set_seed()
-start_time = datetime.now()
-print(f"start at {start_time.strftime('%Y-%m-%d_%H-%M-%S')}")
-train_set, test_set = load_datasets(c.dataset_path, c.class_name)
-train_loader, test_loader = make_dataloaders(train_set, test_set)
-model = train(train_loader, test_loader)
-end_time = datetime.now()
-print(f"end at {end_time.strftime('%Y-%m-%d_%H-%M-%S')}")
-print(f"It took {end_time - start_time} to complete.")
+def main():
+    set_seed(c.seed)
+    start_time = datetime.now()
+    print(f"start at {start_time.strftime('%Y-%m-%d_%H-%M-%S')}")
+    train_set, test_set = load_datasets(c.dataset_path, c.class_name)
+    train_loader, test_loader = make_dataloaders(train_set, test_set)
+    model = train(train_loader, test_loader)
+    end_time = datetime.now()
+    print(f"end at {end_time.strftime('%Y-%m-%d_%H-%M-%S')}")
+    print(f"It took {end_time - start_time} to complete.")
+
+if __name__ == "__main__":
+    main()
